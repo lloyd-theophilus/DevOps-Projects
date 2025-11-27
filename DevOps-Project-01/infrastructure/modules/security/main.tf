@@ -1,4 +1,4 @@
-# Security Groups Module
+# Security Groups Modules
 
 # ALB Security Group
 resource "aws_security_group" "alb" {
@@ -33,7 +33,7 @@ resource "aws_security_group" "alb" {
   }
 }
 
-# Application Security Group
+# Application Security Group for ALB
 resource "aws_security_group" "app" {
   name        = "${var.environment}-app-sg"
   description = "Security group for application servers"
@@ -92,7 +92,7 @@ resource "aws_security_group" "db" {
   }
 }
 
-# Bastion Host Security Group
+# Bastion Host Security Group for SSH Access
 resource "aws_security_group" "bastion" {
   name        = "${var.environment}-bastion-sg"
   description = "Security group for bastion host"
