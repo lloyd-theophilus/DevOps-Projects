@@ -18,7 +18,7 @@
 
     <!-- ========================= DATASOURCE DEFINITION ========================= -->
 
-    <!-- Configurer that replaces MavenProject: org.springframework.samples:spring-framework-petclinic:5.3.13 @ C:\\Users\\vamsh\\Downloads\\Petclinic-main\\pom.xml placeholders with values from a properties file -->
+    <!-- Configurer that replaces MavenProject: org.springframework.samples:spring-framework-petclinic:5.3.13 @ /Users/user/Desktop/Codes/Open-Source/DevOps-Projects/DevOps-Project-32/JavaApp-CICD/pom.xml placeholders with values from a properties file -->
     <!-- (in this case, JDBC-related settings for the dataSource definition below) -->
     <context:property-placeholder location="classpath:spring/data-access.properties" system-properties-mode="OVERRIDE"/>
 
