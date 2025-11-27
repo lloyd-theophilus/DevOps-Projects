@@ -20,7 +20,7 @@ The infrastructure consists of:
    - AWS CLI installed and configured
    - Access key and secret key with necessary permissions
 
-2. **Tools**
+2. **Tools: Ensure to update the versions base on current versions** 
    - Terraform >= 1.0.0
    - AWS CLI >= 2.0.0
 
@@ -91,6 +91,9 @@ infrastructure/
    - VPC flow logs enabled
 
 ## Monitoring and Logging
+   - Prometheus 
+   - Grafana 
+   - Loki
 
 1. **CloudWatch Metrics**
    - CPU utilization
